@@ -1,0 +1,35 @@
+.container > * {
+    background-color: lightblue;
+     border: 1px solid darkcyan;
+     padding: 10px;
+    
+}
+
+ main{
+    grid-area: main;
+}
+
+.all ul{
+    grid-area: navbar;
+}
+.paragraph{
+    grid-area:paragraph;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+.advertise{
+    grid-area: advertise;
+}
+.footer{
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "main main main main main main"
+"navbar paragraph paragraph paragraph paragraph sidebar"
+}
